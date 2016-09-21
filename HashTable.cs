@@ -16,13 +16,8 @@ public class bucket{
 	}
 }
 
-
-
 public class HashTable{
-	
 	private int[] arr = new int[100];
-
-	
 
 	public void Add(key, value){
 		int hashCode = GetHashCode(key);
