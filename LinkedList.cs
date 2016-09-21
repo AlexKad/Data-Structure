@@ -1,6 +1,6 @@
 public class LinkedListNode{
 	public int Value{get;set;}
-	public Node Next{get;set;}
+	public LinkedListNode Next{get;set;}
 
 	public LinkedListNode(value){
 		Value = value;
